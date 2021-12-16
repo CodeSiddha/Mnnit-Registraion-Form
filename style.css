@@ -1,0 +1,130 @@
+html { 
+    background: url(img/cameron-stewart-jo9eYA750V0-unsplash\ \(1\).jpg) no-repeat center center fixed; 
+    background-size: cover;
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+/* navbar */
+#box1{ 
+    display: block;
+    width: 72%;
+    margin: 10px auto;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: inline-block;
+    margin: 10px auto;
+}
+.navbar li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;   
+}
+.navbar li{
+    background-color: rgb(55,177,194);
+    display: inline-block;
+    padding: 11px 59px 9px 43px;
+    
+}
+.navbar li a:hover{
+    color: black;
+}
+.nava{
+    border-radius: 10px;
+}
+/* logo */
+#box2{
+    position: absolute;
+    left: 36px;
+    top: 2px;
+    color: white;
+}
+#box2 img{
+    width: 125px;
+    padding: 10px 10px;;
+}
+.welcome{
+    font-size: 10px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    width: 144px;
+}
+.welcome:hover{
+    color: rgb(251,152,52);
+}
+/* registraion form */
+#box3{
+    position: absolute;
+    right: 493px;
+    top: 165px;
+    /* display: inline-block; */
+    border: 5px solid rgb(55,177,194);
+    border-radius: 20px;
+    /* color: white; */
+    height: 519px;
+    width: 522px;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: inherit;
+}
+.Reg_tilte{
+    /* border: 2px solid red; */
+    width: 32%;
+    height: 37px;
+    margin: 5px 4px;
+    padding: 12px 178px 0px 162px;
+    font-size: 18px;
+    color: white;
+}
+.Reg_tilte:hover{
+    color: rgb(255, 255, 255);
+}
+.notice{
+    color: red;
+    /* border: 2px solid green; */
+}
+.form{
+    /* border: 2px solid blue; */
+    margin: 16px auto;
+    height: 320px;
+}
+.form_content{
+    /* border: 2px solid white; */
+    margin: 7px auto;
+    width: 279px;
+    height: 52px;
+    
+}
+.form_content input {
+    margin: 4px auto;
+    padding: 2px 13px 2px 2px;
+    height: 38px;
+    width: 256px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 10px;
+}
+.btn{
+    margin: 31px;
+    padding: 3px 0px 0px 0px;
+    height: 51px;
+    width: 183px;
+    position: absolute;
+    left: 138px;
+    top: 399px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: brown;
+    font-size: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:rgb(242 242 242);;
+
+}
+.btn:hover{
+    background-color:rgb(196, 82, 82) ;
+}
